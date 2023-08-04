@@ -34,19 +34,3 @@ const App = () => {
 
 export { App }
 
-
-
-{/* <AppBar position="fixed">
-<Container fixed>
-  <Toolbar>
-    <IconButton edge="start" color="inherit" aria-label="menu">
-      <MenuIcon />
-    </IconButton>
-    <Typography variant="h6">Великая Россия</Typography>
-    <Box mr={3}>
-      <Button variant="outlined" color="inherit">Логин</Button>
-    </Box>
-    <Button variant="contained" color="secondary">Регистрация</Button>
-  </Toolbar>
-</Container>
-</AppBar> */}
