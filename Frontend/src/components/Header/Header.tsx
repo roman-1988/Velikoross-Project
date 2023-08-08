@@ -6,7 +6,7 @@ import "./Header.css"
 const itemData =
 {
   img: image,
-  title: "Image",
+  title: "logo",
   width: "50px",
 }
 
@@ -33,7 +33,13 @@ const Header = () => {
             <IconButton>
               <img src={itemData.img} alt={itemData.title} width={itemData.width} />
             </IconButton>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1, cursor: "default" }} ml={1}>
+            <Typography variant="h6" component="div" sx={{
+              flexGrow: 1,
+              cursor: "default",
+              fontFamily: "Merriweather",
+              userSelect: "none"
+            }} 
+            ml={1}>
               Великая Россия
             </Typography>
             <Box mr={3}>
