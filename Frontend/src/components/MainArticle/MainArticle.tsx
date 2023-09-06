@@ -5,7 +5,7 @@ import "./MainArticle.css"
 
 const MainArticle = () => {
     return (
-        <article>
+        <Typography m={4}>
             <br />
             <br />
             <Typography variant="h3" align="center">Воля нации - смерть олигархии!</Typography>
@@ -67,7 +67,7 @@ const MainArticle = () => {
             </Typography>
             <br />
             <br />
-        </article >
+        </Typography >
 
     )
 }
