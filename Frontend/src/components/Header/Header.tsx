@@ -12,7 +12,7 @@ const itemData =
 
 
 
-const Header = () => {
+const Header = ({ handleMenu }) => {
 
   return (
     <>
@@ -27,6 +27,7 @@ const Header = () => {
               color="inherit"
               aria-label="menu"
               sx={{ mr: 2 }}
+              onClick={handleMenu}
             >
               <MenuIcon />
             </IconButton>
@@ -38,8 +39,8 @@ const Header = () => {
               cursor: "default",
               fontFamily: "Merriweather",
               userSelect: "none"
-            }} 
-            ml={1}>
+            }}
+              ml={1}>
               Великая Россия
             </Typography>
             <Box mr={3}>
