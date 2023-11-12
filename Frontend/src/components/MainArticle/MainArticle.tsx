@@ -1,11 +1,11 @@
-import { Typography } from "@mui/material"
+import { Box, Typography } from "@mui/material"
 import "./MainArticle.css"
 
 
 
 const MainArticle = () => {
     return (
-        <Typography m={4}>
+        <Box m={4}>
             <br />
             <br />
             <Typography variant="h3" align="center">Воля нации - смерть олигархии!</Typography>
@@ -67,7 +67,7 @@ const MainArticle = () => {
             </Typography>
             <br />
             <br />
-        </Typography >
+        </Box>
 
     )
 }
