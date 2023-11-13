@@ -44,7 +44,7 @@ const Header = ({ handleMenu }) => {
               Великая Россия
             </Typography>
             <Box mr={3}>
-              <Button color="inherit" variant="outlined">Логин</Button>
+              <Button color="inherit" variant="outlined">Вход</Button>
             </Box>
             <Button color="secondary" variant="contained">Регистрация</Button>
           </Toolbar>

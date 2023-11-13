@@ -5,7 +5,7 @@ import "./MainArticle.css"
 
 const MainArticle = () => {
     return (
-        <Box m={4}>
+        <Box m={4}> 
             <br />
             <br />
             <Typography variant="h3" align="center">Воля нации - смерть олигархии!</Typography>
