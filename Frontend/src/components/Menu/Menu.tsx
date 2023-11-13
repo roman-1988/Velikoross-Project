@@ -1,18 +1,11 @@
-import { Box, Drawer, IconButton } from "@mui/material"
+import { Box, Drawer, IconButton, List, ListItem, ListItemText, ListItemButton, ListItemIcon, ListItemAvatar, Avatar, Divider } from "@mui/material"
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft"
-
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Avatar from '@mui/material/Avatar';
-import PublicIcon from '@mui/icons-material/Public';
-import FeedIcon from '@mui/icons-material/Feed';
-import HistoryEduIcon from '@mui/icons-material/HistoryEdu';
-import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-import ForumIcon from '@mui/icons-material/Forum';
-import MarkAsUnreadIcon from '@mui/icons-material/MarkAsUnread';
-import Divider from '@mui/material/Divider';
+import PublicIcon from "@mui/icons-material/Public"
+import FeedIcon from "@mui/icons-material/Feed"
+import HistoryEduIcon from "@mui/icons-material/HistoryEdu"
+import AutoStoriesIcon from "@mui/icons-material/AutoStories"
+import ForumIcon from "@mui/icons-material/Forum"
+import MarkAsUnreadIcon from "@mui/icons-material/MarkAsUnread"
 
 const Menu = (props) => {
 
@@ -34,64 +27,52 @@ const Menu = (props) => {
                 </IconButton>
                 <List
                     sx={{
-                        width: '100%',
+                        width: "100%",
                         maxWidth: 360,
-                        bgcolor: 'background.paper',
+                        bgcolor: "background.paper",
                     }}
                 >
-                    <ListItem>
-                        <ListItemAvatar>
-                            <Avatar>
-                                <PublicIcon />
-                            </Avatar>
-                        </ListItemAvatar>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <PublicIcon />
+                        </ListItemIcon>
                         <ListItemText primary="Главные темы" />
-                    </ListItem>
+                    </ListItemButton>
                     <Divider variant="inset" component="li" />
-                    <ListItem>
-                        <ListItemAvatar>
-                            <Avatar>
-                                <FeedIcon />
-                            </Avatar>
-                        </ListItemAvatar>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <FeedIcon />
+                        </ListItemIcon>
                         <ListItemText primary="Статьи" />
-                    </ListItem>
+                    </ListItemButton>
                     <Divider variant="inset" component="li" />
-                    <ListItem>
-                        <ListItemAvatar>
-                            <Avatar>
-                                <HistoryEduIcon />
-                            </Avatar>
-                        </ListItemAvatar>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <HistoryEduIcon />
+                        </ListItemIcon>
                         <ListItemText primary="Документы" />
-                    </ListItem>
+                    </ListItemButton>
                     <Divider variant="inset" component="li" />
-                    <ListItem>
-                        <ListItemAvatar>
-                            <Avatar>
-                                <AutoStoriesIcon />
-                            </Avatar>
-                        </ListItemAvatar>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <AutoStoriesIcon />
+                        </ListItemIcon>
                         <ListItemText primary="Книги" />
-                    </ListItem>
+                    </ListItemButton>
                     <Divider variant="inset" component="li" />
-                    <ListItem>
-                        <ListItemAvatar>
-                            <Avatar>
-                                <ForumIcon />
-                            </Avatar>
-                        </ListItemAvatar>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <ForumIcon />
+                        </ListItemIcon>
                         <ListItemText primary="Форум" />
-                    </ListItem>
+                    </ListItemButton>
                     <Divider variant="inset" component="li" />
-                    <ListItem>
-                        <ListItemAvatar>
-                            <Avatar>
-                                <MarkAsUnreadIcon />
-                            </Avatar>
-                        </ListItemAvatar>
+                    <ListItemButton>
+                        <ListItemIcon>
+                            <MarkAsUnreadIcon />
+                        </ListItemIcon>
                         <ListItemText primary="Контакты" />
-                    </ListItem>
+                    </ListItemButton>
                 </List>
             </Box>
         </Drawer>
